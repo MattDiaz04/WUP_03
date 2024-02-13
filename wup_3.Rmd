@@ -46,6 +46,8 @@ So we use the numerical~cat helper file.
 boxplot(alcohol~Seat,data=davisdata)
 ```
 
+This box plot shows us that there is a significant difference in the back rows consumption in alcohol compared to the middle and back rows. Based on the box plot, students in the back row seem to be consuming more alcohol. 
+
 ## numerical description
 ```{r}
 favstats(alcohol~Seat,data=davisdata)
