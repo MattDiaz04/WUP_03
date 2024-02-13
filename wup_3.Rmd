@@ -42,28 +42,14 @@ So we use the numerical~cat helper file.
 
 ## Graphical description
 
-## Now with ggplot - first select the basic data
-
 ```{r}
-basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
-```
-## Now add in boxplot
-
-```{r}
-basicCN + geom_boxplot()
-```
-  
-  
-### get fancy  
-
-```{r}
-basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
+boxplot(alcohol~Seat,data=davisdata)
 ```
 
-## Numerical Summarys 
+## numerical description
 
-## Inferential Tests
+## inferential description
 
-## Conclusions
+## Conclusions and Discussion
 
 
