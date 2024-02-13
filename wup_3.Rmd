@@ -55,6 +55,18 @@ Based on the table, the back row has a mean of 9.6, the front row has a mean of 
 
 ## inferential description
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+The p value is 0.000116. That means the students in all the rows do not consume the same amount of alcohol. 
+
+```{r}
+plot(TukeyHSD(model1))
+```
+
+From the Tukey HSD test we found that people seated in the back row drink more than people drinking in the middle and front rows. There is no difference in alcohol consumption between the middle and front rows. 
+
 ## Conclusions and Discussion
 
 
