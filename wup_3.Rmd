@@ -14,8 +14,33 @@ require(tidyverse)
 require(tigerstats)
 davisdata <- read.csv(file="UCDavis.csv")
 ```
-## Our Goal is to answer this question Is there a difference between the alcohol consumed between the row
-## you choose to sit in??
+## Our Goal is to answer this question Is there a difference between the alcohol consumed between the row you choose to sit in??
+
+# Introduction
+
+The research question is this: Is there a difference in the amount of alcohol consumed per week by students who sit in row 1, row 2, or row 3 of the UC Davis classroom.
+
+$H_0$: There is no difference between the average number of drinks imbibed between people conditioned on the row they sit in.
+
+$H_A$: The average number drinks is different between at least two rows. 
+
+# Methods 
+
+We are trying to predict alcohol consumption based o seating row. 
+
+Data Form UC Davis:
+
+alcohol ~ Seat
+
+alcohol is a numerical variable
+
+seat is a categorical variable
+
+So we use the numerical~cat helper file.
+
+# Description
+
+## Graphical description
 
 ## Now with ggplot - first select the basic data
 
