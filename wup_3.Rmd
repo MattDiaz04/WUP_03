@@ -51,7 +51,7 @@ boxplot(alcohol~Seat,data=davisdata)
 favstats(alcohol~Seat,data=davisdata)
 ```
 
-Based on the table, the back row has a mean of 9.6, the front row has a mean of 1.8, and the middle row has a mean of 3.2. 
+Based on the table, the back row has a mean of 9.6, the front row has a mean of 1.8, and the middle row has a mean of 3.2. Apparently, students in the back row tend to drink more.
 
 ## inferential description
 
