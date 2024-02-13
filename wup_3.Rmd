@@ -67,6 +67,6 @@ plot(TukeyHSD(model1))
 
 From the Tukey HSD test we found that people seated in the back row drink more than people drinking in the middle and front rows. There is no difference in alcohol consumption between the middle and front rows. 
 
-## Conclusions and Discussion
+## Conclusion
 
-
+We are trying to see if there is a difference in students who consume alcohol in rows 1, 2, 3. The p-value is 0.000116 which is less than 0.05 which means we reject the null hypothesis. Once we read the graph given to us by the Tukey HSD model, it is understood that students in the back row drink more alcohol than the middle and front row. 
